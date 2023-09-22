@@ -29,6 +29,7 @@ app.use(function *(next){
   console.log('%s %s - %s', this.method, this.url, ms);
 });
 
+console.log('git test')
 app.use(require('koa-static')(__dirname + '/public'));
 
 app.use(cors())
