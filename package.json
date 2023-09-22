@@ -22,7 +22,8 @@
     "koa-router": "^5.4.0",
     "koa-static": "^1.5.2",
     "koa-views": "^3.1.0",
-    "koa2-cors": "^2.0.6"
+    "koa2-cors": "^2.0.6",
+    "node-xlsx": "^0.23.0"
   },
   "devDependencies": {
     "nodemon": "^1.8.1"
