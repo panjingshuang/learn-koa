@@ -17,7 +17,7 @@ router.get('/foo', function *(next) {
 router.get('/one', function *(next){
   this.type = 'application/json';
   const data = [
-    [],
+    ["致富账号",'变成','变成'],
     [1, 2, 3],
     [true, false, null, 'sheetjs'],
     ['foo', 'bar', new Date('2014-02-19T14:30Z'), '0.3'],
